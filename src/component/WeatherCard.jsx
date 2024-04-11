@@ -22,7 +22,7 @@ const WeatherCard = ({ weather, temp }) => {
           />
         </figure>
         <div className="weather__info">
-          <h3 className="weather__descrpiton">
+          <h3 className="weather__description">
             {" "}
             {`"${weather?.weather[0].description}"`}
           </h3>
